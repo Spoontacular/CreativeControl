@@ -1,5 +1,5 @@
 name: CreativeControl
-main: com.spoontacular.creativecontrol
+main: com.spoontacular.creativecontrol.CreativeControl
 version: 0.0.1
 commands:
    basic:
