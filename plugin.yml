@@ -1,3 +1,9 @@
 name: CreativeControl
 main: com.spoontacular.creativecontrol
 version: 0.0.1
+commands:
+   basic:
+      description: Switch the player to creative mode.
+      usage: /cr [player]
+      permission: creativecontrol.cr
+      permission-message: You don't have creativecontrol.cr
