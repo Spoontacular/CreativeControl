@@ -10,7 +10,7 @@ import com.pneumaticraft.commandhandler.multiverse.Command;
 
 public class CreativeControl extends JavaPlugin {
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args){
-	    if(cmd.getCommandName().equalsIgnoreCase("ignite")){
+	    if(cmd.getCommandName().equalsIgnoreCase("cr")){
 	        Player s = (Player)sender;
 	        List<Player> players = s.getWorld().getPlayers();
 	        Player target = players.get(players.indexOf(args[0])); // Gets the player who was typed in the command. 
