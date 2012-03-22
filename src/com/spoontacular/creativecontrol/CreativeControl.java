@@ -44,6 +44,8 @@ public class CreativeControl extends JavaPlugin implements MVPlugin {
 		//Get the information from the yml file.
 		PluginDescriptionFile pdfFile = this.getDescription();
 		
+		this.pluginListener = new MVCCPluginListener(this);
+		
 		pm.registerEvents(this.pluginListener, this);
         
     	System.out.println( pdfFile.getName() + " version " + pdfFile.getVersion() + " is enabled!" );    
