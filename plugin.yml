@@ -1,8 +1,10 @@
 name: CreativeControl
 main: com.spoontacular.creativecontrol.CreativeControl
 version: 0.0.1
+depend: ['Multiverse-Core']
 commands:
    cr:
       description: Switch the player to creative mode.
       usage: /cr
+      permissions: creativecontrol.cr
       permission-message: You don't have creativecontrol.cr
